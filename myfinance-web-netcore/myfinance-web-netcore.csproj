@@ -7,4 +7,10 @@
     <RootNamespace>myfinance_web_netcore</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <!-- <PackageReference Include="MySql.Data.EntityFramework" Version="9.3.0" /> -->
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="9.0.3" />
+  </ItemGroup>
+
 </Project>

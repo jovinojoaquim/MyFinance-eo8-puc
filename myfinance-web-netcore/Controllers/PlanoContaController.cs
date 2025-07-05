@@ -63,7 +63,7 @@ namespace myfinance_web_netcore.Controllers
         }
 
         [HttpGet]
-        [Route("Excluir")]
+        [Route("Excluir/{id}")]
         public IActionResult Excluir(int id)
         {
             _planoContaRepository.Excluir(id);
